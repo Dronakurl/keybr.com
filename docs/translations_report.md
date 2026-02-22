@@ -1,6 +1,6 @@
 # English
 
-Translated: 357 messages, 4896 words
+Translated: 344 messages, 4784 words
 
 Untranslated: 0 messages, 0 words
 
@@ -8,212 +8,132 @@ Untranslated: 0 messages, 0 words
 
 Translated: 339 messages, 4744 words
 
-Untranslated: 15 messages, 114 words
+Untranslated: 5 messages, 40 words
 
 * *Letters*
 * *Volume:*
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Arabic
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Bulgarian
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Bangla
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Catalan
 
 Translated: 310 messages, 3556 words
 
-Untranslated: 42 messages, 1280 words
+Untranslated: 32 messages, 1206 words
 
 * *Errors*
 * *Zones:*
-* *Import data*
+* *Add numbers:*
 * *Sound theme:*
 * *Explain charts*
-* *🔒 = Locked key*
 * *Key sounds only*
 * *Relative Accuracy*
 * *Repeat each word:*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
 * *The previous keys are also above the target speed*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
 * *Generate lessons that resemble the specified programming lan...*
+* *Practice punctuation characters that are specific to a progr...*
+* *This is a histogram of the accuracies of all users, and your...*
+* *Show color coding of the keyboard zones. Use this option to ...*
+* *Generate typing lessons from the text of a book. All keys ar...*
+* *Highlight a key that must to be pressed next. Use this optio...*
+* *<p>This indicator shows the current subset of letters used t...*
+* *Repeat each word a number of times. Type a word for the firs...*
+* *See how accurate you type relative to other users. The highe...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
+* *Adjust the amount of basic punctuation characters added to t...*
 * ...
 
 # Czech
 
 Translated: 336 messages, 4740 words
 
-Untranslated: 18 messages, 118 words
+Untranslated: 8 messages, 44 words
 
 * *Font:*
 * *Reset*
 * *Zones:*
 * *Syntax:*
-* *Import data*
+* *Add numbers:*
 * *Sound theme:*
-* *🔒 = Locked key*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Danish
 
 Translated: 331 messages, 4689 words
 
-Untranslated: 21 messages, 147 words
+Untranslated: 11 messages, 73 words
 
 * *Score*
 * *Layout*
 * *Layout:*
 * *Layouts*
 * *Position*
-* *Import data*
 * *Multiplayer*
+* *Add numbers:*
 * *Download data*
-* *🔒 = Locked key*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
 * *Repeat each word a number of times. Type a word for the firs...*
-* ...
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # German
 
 Translated: 339 messages, 4744 words
 
-Untranslated: 15 messages, 114 words
+Untranslated: 5 messages, 40 words
 
 * *Position*
 * *Alphabet:*
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Greek
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Esperanto
 
 Translated: 77 messages, 1126 words
 
-Untranslated: 270 messages, 3674 words
+Untranslated: 260 messages, 3600 words
 
 * *GO!*
 * *Copy*
@@ -241,78 +161,58 @@ Untranslated: 270 messages, 3674 words
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Estonian
 
 Translated: 338 messages, 4743 words
 
-Untranslated: 16 messages, 115 words
+Untranslated: 6 messages, 41 words
 
 * *GO!*
 * *Font:*
 * *Progress*
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Persian
 
 Translated: 287 messages, 2823 words
 
-Untranslated: 65 messages, 2013 words
+Untranslated: 55 messages, 1939 words
 
 * *Books*
 * *Zones:*
 * *Syntax:*
-* *Import data*
+* *Add numbers:*
 * *Sound theme:*
 * *Top accuracy*
 * *Explain charts*
-* *🔒 = Locked key*
 * *Key sounds only*
 * *Accuracy Streaks*
 * *Average accuracy*
 * *Relative Accuracy*
 * *Repeat each word:*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
 * *Keyboard hardware emulates layout*
-* *Unlock All Keys (Auto Progression)*
 * *Switch the current interface layout.*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
+* *Circle color: {label1} – hit count, {label2} – miss count.*
+* *Generate lessons that resemble the specified programming lan...*
+* *Practice punctuation characters that are specific to a progr...*
+* *This is a histogram of the accuracies of all users, and your...*
+* *Show color coding of the keyboard zones. Use this option to ...*
+* *Bar color: {label1} – hit count, {label2} – miss count, {lab...*
 * ...
 
 # Finnish
 
 Translated: 208 messages, 2284 words
 
-Untranslated: 140 messages, 2518 words
+Untranslated: 130 messages, 2444 words
 
 * *GO!*
 * *Time*
@@ -328,9 +228,9 @@ Untranslated: 140 messages, 2518 words
 * *Characters*
 * *Top speed!*
 * *High Scores*
-* *Import data*
 * *Multiplayer*
 * *Smoothness:*
+* *Add numbers:*
 * *Play sounds:*
 * *Average speed*
 * *Benford’s law*
@@ -340,7 +240,7 @@ Untranslated: 140 messages, 2518 words
 
 Translated: 44 messages, 583 words
 
-Untranslated: 302 messages, 4206 words
+Untranslated: 292 messages, 4132 words
 
 * *GO!*
 * *Copy*
@@ -368,145 +268,85 @@ Untranslated: 302 messages, 4206 words
 
 Translated: 333 messages, 4544 words
 
-Untranslated: 21 messages, 314 words
+Untranslated: 11 messages, 240 words
 
 * *Zones:*
 * *Options*
 * *Volume:*
 * *Position*
 * *Alphabet:*
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 * *Above are listed the longest continuous sequences of lessons...*
 * *When you focus on a new key, it is very likely that the spee...*
-* ...
+* *The target speed is used to measure the confidence level and...*
 
 # Irish
 
 Translated: 337 messages, 4735 words
 
-Untranslated: 17 messages, 123 words
+Untranslated: 7 messages, 49 words
 
 * *Zones:*
-* *Import data*
 * *Smoothness:*
+* *Add numbers:*
 * *Sound theme:*
 * *M|T|W|T|F|S|S*
-* *🔒 = Locked key*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Hebrew
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Croatian
 
 Translated: 337 messages, 4740 words
 
-Untranslated: 17 messages, 118 words
+Untranslated: 7 messages, 44 words
 
 * *Font:*
 * *Reset*
-* *Import data*
 * *Multiplayer*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
 * *Premium account price:*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Hungarian
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Indonesian
 
 Translated: 339 messages, 4744 words
 
-Untranslated: 15 messages, 114 words
+Untranslated: 5 messages, 40 words
 
 * *GO!*
 * *Volume:*
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Icelandic
 
 Translated: 95 messages, 1742 words
 
-Untranslated: 252 messages, 3058 words
+Untranslated: 242 messages, 2984 words
 
 * *GO!*
 * *Copy*
@@ -534,7 +374,7 @@ Untranslated: 252 messages, 3058 words
 
 Translated: 334 messages, 4738 words
 
-Untranslated: 19 messages, 118 words
+Untranslated: 9 messages, 44 words
 
 * *Font:*
 * *Layout*
@@ -542,45 +382,25 @@ Untranslated: 19 messages, 118 words
 * *Layout:*
 * *Layouts*
 * *Volume:*
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Japanese
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Korean
 
 Translated: 145 messages, 1297 words
 
-Untranslated: 207 messages, 3539 words
+Untranslated: 197 messages, 3465 words
 
 * *Copy*
 * *Done*
@@ -608,35 +428,35 @@ Untranslated: 207 messages, 3539 words
 
 Translated: 298 messages, 3096 words
 
-Untranslated: 53 messages, 1731 words
+Untranslated: 43 messages, 1657 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
 * *Accuracy Streaks*
 * *Relative Accuracy*
-* *Manual Key Controls*
 * *No accuracy streaks.*
 * *Practice numbers only.*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
 * *The difference from the average value.*
 * *Sort letters in the order of keyboard keys*
 * *Download all your typing data in JSON format.*
-* *Import typing data from a JSON or .stats file.*
 * *Help us translate keybr.com into your language.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
 * *The detailed statistics regarding your learning progress.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
+* *Permanently delete all of your typing data and reset statist...*
+* *This is a histogram of the accuracies of all users, and your...*
+* *Adjust the number of words in the lesson text. Making lesson...*
+* *Show color coding of the keyboard zones. Use this option to ...*
+* *Are you sure you want to delete all data and reset your prof...*
+* *You don’t have any accuracy streaks. Consider completing a l...*
+* *Highlight a key that must to be pressed next. Use this optio...*
+* *<p>This indicator shows the current subset of letters used t...*
+* *For the purpose of typing measurement, each word is standard...*
 * ...
 
 # Mongolian
 
 Translated: 16 messages, 378 words
 
-Untranslated: 328 messages, 4382 words
+Untranslated: 318 messages, 4308 words
 
 * *GO!*
 * *Copy*
@@ -664,7 +484,7 @@ Untranslated: 328 messages, 4382 words
 
 Translated: 158 messages, 2338 words
 
-Untranslated: 190 messages, 2465 words
+Untranslated: 180 messages, 2391 words
 
 * *Done*
 * *Help*
@@ -692,97 +512,57 @@ Untranslated: 190 messages, 2465 words
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Dutch
 
 Translated: 333 messages, 4736 words
 
-Untranslated: 20 messages, 120 words
+Untranslated: 10 messages, 46 words
 
 * *Score*
 * *Zones:*
 * *Account*
 * *Letters*
 * *Volume:*
-* *Import data*
 * *Multiplayer*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
 * *Premium account*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Polish
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Brazilian Portuguese
 
 Translated: 338 messages, 4743 words
 
-Untranslated: 16 messages, 115 words
+Untranslated: 6 messages, 41 words
 
 * *Layout*
 * *Layout:*
 * *Layouts*
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # European Portuguese
 
 Translated: 318 messages, 4597 words
 
-Untranslated: 34 messages, 239 words
+Untranslated: 24 messages, 165 words
 
 * *Books*
 * *Layout*
@@ -792,25 +572,25 @@ Untranslated: 34 messages, 239 words
 * *Volume:*
 * *Top score!*
 * *Top speed!*
-* *Import data*
+* *Add numbers:*
 * *Sound theme:*
 * *Top accuracy*
 * *Explain charts*
-* *🔒 = Locked key*
 * *Key sounds only*
 * *Average accuracy*
 * *Relative Accuracy*
 * *Repeat each word:*
 * *Daily goal reached!*
-* *Manual Key Controls*
 * *New letter unlocked!*
+* *Premium account price:*
+* *This is a histogram of the accuracies of all users, and your...*
 * ...
 
 # Romanian
 
 Translated: 298 messages, 3587 words
 
-Untranslated: 49 messages, 1227 words
+Untranslated: 39 messages, 1153 words
 
 * *Font:*
 * *Layout*
@@ -819,67 +599,47 @@ Untranslated: 49 messages, 1227 words
 * *Layout:*
 * *Layouts*
 * *Translate*
-* *Import data*
 * *Multiplayer*
+* *Add numbers:*
 * *Sound theme:*
 * *Top accuracy*
 * *Forgive errors*
-* *🔒 = Locked key*
 * *Key sounds only*
 * *Average accuracy*
 * *Relative Accuracy*
 * *Repeat each word:*
-* *Manual Key Controls*
 * *Start in {countDown}*
 * *Premium account price:*
+* *Enter full-screen mode.*
+* *<h1>Connecting to Server...</h1><p>Establishing connection t...*
 * ...
 
 # Russian
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Slovak
 
 Translated: 340 messages, 4745 words
 
-Untranslated: 14 messages, 113 words
+Untranslated: 4 messages, 39 words
 
 * *Syntax:*
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Slovenian
 
 Translated: 192 messages, 3519 words
 
-Untranslated: 161 messages, 1337 words
+Untranslated: 151 messages, 1263 words
 
 * *Copy*
 * *Done*
@@ -907,7 +667,7 @@ Untranslated: 161 messages, 1337 words
 
 Translated: 43 messages, 684 words
 
-Untranslated: 303 messages, 4105 words
+Untranslated: 293 messages, 4031 words
 
 * *GO!*
 * *Copy*
@@ -935,58 +695,40 @@ Untranslated: 303 messages, 4105 words
 
 Translated: 338 messages, 4743 words
 
-Untranslated: 16 messages, 115 words
+Untranslated: 6 messages, 41 words
 
 * *Layout*
 * *Layout:*
 * *Syntax:*
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Thai
 
 Translated: 329 messages, 4635 words
 
-Untranslated: 23 messages, 201 words
+Untranslated: 13 messages, 127 words
 
 * *Zones:*
-* *Import data*
+* *Add numbers:*
 * *Sound theme:*
 * *Top accuracy*
-* *🔒 = Locked key*
 * *Key sounds only*
 * *Average accuracy*
 * *Relative Accuracy*
 * *Repeat each word:*
-* *Manual Key Controls*
 * *Premium account price:*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
 * *This is a histogram of the accuracies of all users, and your...*
-* ...
+* *Repeat each word a number of times. Type a word for the firs...*
+* *See how accurate you type relative to other users. The highe...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Turkish
 
 Translated: 227 messages, 2126 words
 
-Untranslated: 122 messages, 2677 words
+Untranslated: 112 messages, 2603 words
 
 * *Books*
 * *Font:*
@@ -997,10 +739,10 @@ Untranslated: 122 messages, 2677 words
 * *Syntax:*
 * *Alphabet:*
 * *Box cursor*
-* *Import data*
 * *Line cursor*
 * *Source code*
 * *Whitespace:*
+* *Add numbers:*
 * *Block cursor*
 * *Top accuracy*
 * *No whitespace*
@@ -1014,34 +756,24 @@ Untranslated: 122 messages, 2677 words
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Vietnamese
 
 Translated: 275 messages, 2745 words
 
-Untranslated: 76 messages, 2082 words
+Untranslated: 66 messages, 2008 words
 
 * *Visit*
 * *Typing*
 * *Zones:*
 * *Box cursor*
-* *Import data*
 * *Line cursor*
+* *Add numbers:*
 * *Block cursor*
 * *Sound theme:*
 * *Top accuracy*
@@ -1049,73 +781,43 @@ Untranslated: 76 messages, 2082 words
 * *M|T|W|T|F|S|S*
 * *Smooth cursor*
 * *Jumping cursor*
-* *🔒 = Locked key*
 * *Key sounds only*
 * *Average accuracy*
 * *Underline cursor*
 * *Repeat each word:*
-* *Manual Key Controls*
 * *Premium account price:*
+* *Key Frequency Histogram*
+* *Key Typing Speed Histogram*
 * ...
 
 # Simplified Chinese
 
 Translated: 340 messages, 4739 words
 
-Untranslated: 14 messages, 119 words
+Untranslated: 4 messages, 45 words
 
-* *Import data*
+* *Add numbers:*
 * *M|T|W|T|F|S|S*
-* *🔒 = Locked key*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Traditional Chinese
 
 Translated: 341 messages, 4746 words
 
-Untranslated: 13 messages, 112 words
+Untranslated: 3 messages, 38 words
 
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
 
 # Chinese (Taiwan)
 
 Translated: 340 messages, 4745 words
 
-Untranslated: 14 messages, 113 words
+Untranslated: 4 messages, 39 words
 
 * *GO!*
-* *Import data*
-* *🔒 = Locked key*
+* *Add numbers:*
 * *Key sounds only*
-* *Manual Key Controls*
-* *Lock All Keys (Reset to Initial)*
-* *Unlock All Keys (Auto Progression)*
-* *Import typing data from a JSON or .stats file.*
-* *Some results in the file are invalid. Import aborted.*
-* *Failed to parse JSON file. Please check the file format.*
-* *All results in the file are duplicates. Nothing was imported...*
-* *Failed to read file. Please ensure it is a valid export file...*
-* *Click any key to lock/unlock it. First 6 keys cannot be lock...*
-* *WARNING: This will DELETE all your existing typing data and ...*
+* *Adjust the amount of numbers added to the lesson text. Use t...*
