@@ -10,7 +10,6 @@ export const KeySet = ({
   onKeyHoverIn,
   onKeyHoverOut,
   onKeyClick,
-  manualLocks,
 }: {
   id?: string;
   className?: ClassName;
@@ -18,7 +17,6 @@ export const KeySet = ({
   onKeyHoverIn?: (key: LessonKey, elem: Element) => void;
   onKeyHoverOut?: (key: LessonKey, elem: Element) => void;
   onKeyClick?: (key: LessonKey, elem: Element) => void;
-  manualLocks?: Set<number>;
 }) => {
   const ref = useRef<HTMLElement>(null);
   return (
@@ -37,13 +35,7 @@ export const KeySet = ({
       }}
     >
       {[...lessonKeys].map((lessonKey) => (
-        <Key
-          key={lessonKey.letter.codePoint}
-          lessonKey={lessonKey}
-          isManuallyLocked={
-            manualLocks?.has(lessonKey.letter.codePoint) ?? false
-          }
-        />
+        <Key key={lessonKey.letter.codePoint} lessonKey={lessonKey} />
       ))}
     </span>
   );

@@ -17,11 +17,10 @@ export const StreakList = ({
   for (const { level, results } of streakList) {
     if (results.length > 0) {
       if (children.length > 0) {
-        children.push(<span key={`sep-${level}`}> </span>);
+        children.push(" ");
       }
       children.push(
         <FormattedMessage
-          key={`streak-${level}-${results.length}`}
           id="streakList.streakLength"
           defaultMessage="{length, plural, =1 {One lesson} other {# lessons}} with {accuracy} accuracy."
           values={{
@@ -35,7 +34,6 @@ export const StreakList = ({
   if (children.length === 0) {
     children.push(
       <FormattedMessage
-        key="no-streaks"
         id="streakList.noStreaks"
         defaultMessage="No accuracy streaks."
       />,
