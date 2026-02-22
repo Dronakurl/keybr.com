@@ -130,6 +130,7 @@ export class GuidedLesson extends Lesson {
       {
         withCapitals: this.settings.get(lessonProps.capitals),
         withPunctuators: this.settings.get(lessonProps.punctuators),
+        withNumbers: this.settings.get(lessonProps.textNumbers),
       },
       rng,
     );
