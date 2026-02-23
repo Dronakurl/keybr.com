@@ -33,6 +33,7 @@ export const Key = ({
       {...props}
       ref={Key.attach(lessonKey)}
       key={codePoint}
+      aria-label={isManuallyLocked ? `${label} (locked)` : label}
       className={clsx(
         styles.lessonKey,
         size === "normal" && styles.lessonKey_normal,

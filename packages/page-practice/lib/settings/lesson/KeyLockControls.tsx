@@ -90,10 +90,7 @@ export function KeyLockControls({
   const manualLocks = parseManualLocks(
     settings.get(lessonProps.guided.manualLocks),
   );
-  const maxLockable = Math.max(
-    0,
-    lessonKeys.letters.length - MIN_ALPHABET_SIZE,
-  );
+  const maxLockable = Math.max(0, lesson.letters.length - MIN_ALPHABET_SIZE);
   const hasLocks = manualLocks.size > 0;
   const allLocked = manualLocks.size === maxLockable;
 
