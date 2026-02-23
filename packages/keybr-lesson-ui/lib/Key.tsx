@@ -28,7 +28,6 @@ export const Key = ({
     isFocused,
     isForced,
   } = lessonKey;
-  const isLocked = isManuallyLocked;
   return (
     <span
       {...props}
@@ -48,12 +47,7 @@ export const Key = ({
         isCurrent && styles.lessonKey_current,
       )}
       style={keyStyles(true, confidence)}
-      title={
-        title ??
-        (isManuallyLocked
-          ? "Manually locked (click to unlock)"
-          : "Click to lock")
-      }
+      title={title}
       data-code-point={codePoint}
     >
       {label}

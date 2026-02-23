@@ -47,6 +47,7 @@ export const KeySetRow = memo(function KeySetRow({
   onKeyHoverOut,
   onKeyClick,
   manualLocks,
+  formatTitle,
 }: {
   lessonKeys: LessonKeys;
   names?: Names;
@@ -54,6 +55,7 @@ export const KeySetRow = memo(function KeySetRow({
   onKeyHoverOut?: (key: LessonKey, elem: Element) => void;
   onKeyClick?: (key: LessonKey, elem: Element) => void;
   manualLocks?: Set<number>;
+  formatTitle?: (lessonKey: LessonKey, isManuallyLocked: boolean) => string;
 }) {
   const { formatMessage } = useIntl();
   return (
@@ -73,6 +75,7 @@ export const KeySetRow = memo(function KeySetRow({
         onKeyHoverOut={onKeyHoverOut}
         onKeyClick={onKeyClick}
         manualLocks={manualLocks}
+        formatTitle={formatTitle}
       />
     </div>
   );

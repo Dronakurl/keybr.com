@@ -13,7 +13,7 @@ import { KeySetRow } from "@keybr/lesson-ui";
 import { makeKeyStatsMap, useResults } from "@keybr/result";
 import { useSettings } from "@keybr/settings";
 import { Button, Field, FieldList, FieldSet, Kbd } from "@keybr/widget";
-import { type ReactNode } from "react";
+import { type ReactNode, useCallback } from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 import * as styles from "./KeyLockControls.module.less";
 
@@ -31,6 +31,23 @@ export function KeyLockControls({
     makeKeyStatsMap(lesson.letters, lesson.filter(results)),
   );
 
+  // Create a title formatter for key tooltips
+  const formatKeyTitle = useCallback(
+    (key: LessonKey, isLocked: boolean) => {
+      if (isLocked) {
+        return formatMessage({
+          id: "settings.key.locked",
+          defaultMessage: "Manually locked (click to unlock)",
+        });
+      }
+      return formatMessage({
+        id: "settings.key.unlockable",
+        defaultMessage: "Click to lock",
+      });
+    },
+    [formatMessage],
+  );
+
   const handleKeyClick = (key: LessonKey) => {
     // Toggle lock/unlock state with direct click (no modifier needed)
     const manualLocks = parseManualLocks(
@@ -41,13 +58,19 @@ export function KeyLockControls({
       updateSettings(unlockKey(settings, key.letter.codePoint));
     } else {
       // Lock the key (unless it's one of the first 6 minimum keys)
-      const minCodePoint =
-        lessonKeys.letters[
-          Math.min(MIN_ALPHABET_SIZE, lessonKeys.letters.length) - 1
-        ]?.codePoint ?? 0;
-      if (key.letter.codePoint > minCodePoint) {
-        updateSettings(lockKey(settings, key.letter.codePoint));
+      // Protect by array index, NOT by code point value
+      const protectedKeys = new Set(
+        lessonKeys.letters
+          .slice(0, Math.min(MIN_ALPHABET_SIZE, lessonKeys.letters.length))
+          .map((l) => l.codePoint),
+      );
+
+      if (protectedKeys.has(key.letter.codePoint)) {
+        // This is one of the first 6 keys - cannot lock
+        return;
       }
+
+      updateSettings(lockKey(settings, key.letter.codePoint));
     }
   };
 
@@ -67,14 +90,12 @@ export function KeyLockControls({
   const manualLocks = parseManualLocks(
     settings.get(lessonProps.guided.manualLocks),
   );
-  const minCodePoint =
-    lessonKeys.letters[
-      Math.min(MIN_ALPHABET_SIZE, lessonKeys.letters.length) - 1
-    ]?.codePoint ?? 0;
+  const maxLockable = Math.max(
+    0,
+    lessonKeys.letters.length - MIN_ALPHABET_SIZE,
+  );
   const hasLocks = manualLocks.size > 0;
-  const allLocked =
-    manualLocks.size ===
-    Math.max(0, lessonKeys.letters.length - MIN_ALPHABET_SIZE);
+  const allLocked = manualLocks.size === maxLockable;
 
   return (
     <FieldSet
@@ -111,6 +132,7 @@ export function KeyLockControls({
         lessonKeys={lessonKeys}
         onKeyClick={handleKeyClick}
         manualLocks={manualLocks}
+        formatTitle={formatKeyTitle}
         names={{ keySet: "key-lock-controls" }}
       />
       <div className={styles.hint}>

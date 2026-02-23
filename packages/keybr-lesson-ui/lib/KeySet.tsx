@@ -11,6 +11,7 @@ export const KeySet = ({
   onKeyHoverOut,
   onKeyClick,
   manualLocks,
+  formatTitle,
 }: {
   id?: string;
   className?: ClassName;
@@ -19,6 +20,7 @@ export const KeySet = ({
   onKeyHoverOut?: (key: LessonKey, elem: Element) => void;
   onKeyClick?: (key: LessonKey, elem: Element) => void;
   manualLocks?: Set<number>;
+  formatTitle?: (lessonKey: LessonKey, isManuallyLocked: boolean) => string;
 }) => {
   const ref = useRef<HTMLElement>(null);
   return (
@@ -36,15 +38,20 @@ export const KeySet = ({
         relayEvent(ref.current!, event, onKeyClick);
       }}
     >
-      {[...lessonKeys].map((lessonKey) => (
-        <Key
-          key={lessonKey.letter.codePoint}
-          lessonKey={lessonKey}
-          isManuallyLocked={
-            manualLocks?.has(lessonKey.letter.codePoint) ?? false
-          }
-        />
-      ))}
+      {[...lessonKeys].map((lessonKey) => {
+        const isManuallyLocked =
+          manualLocks?.has(lessonKey.letter.codePoint) ?? false;
+        return (
+          <Key
+            key={lessonKey.letter.codePoint}
+            lessonKey={lessonKey}
+            isManuallyLocked={isManuallyLocked}
+            title={
+              formatTitle ? formatTitle(lessonKey, isManuallyLocked) : undefined
+            }
+          />
+        );
+      })}
     </span>
   );
 };
