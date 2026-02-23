@@ -1,5 +1,6 @@
 import { type Letter } from "@keybr/phonetic-model";
 import { type Settings } from "@keybr/settings";
+import { MIN_ALPHABET_SIZE } from "./guided.ts";
 import { lessonProps } from "./settings.ts";
 
 /**
@@ -62,9 +63,8 @@ export function unlockKey(settings: Settings, codePoint: number): Settings {
  * @returns Formatted string for settings
  */
 export function lockAllKeys(letters: readonly Letter[]): string {
-  const minSize = 6;
   const locks = new Set<number>();
-  for (let i = minSize; i < letters.length; i++) {
+  for (let i = MIN_ALPHABET_SIZE; i < letters.length; i++) {
     locks.add(letters[i].codePoint);
   }
   return formatManualLocks(locks);

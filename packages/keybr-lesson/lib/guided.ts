@@ -18,6 +18,8 @@ import {
   uniqueWords,
 } from "./text/words.ts";
 
+export const MIN_ALPHABET_SIZE = 6;
+
 export class GuidedLesson extends Lesson {
   readonly dictionary: Dictionary;
 
@@ -48,7 +50,7 @@ export class GuidedLesson extends Lesson {
 
     const letters = this.#getLetters();
 
-    const minSize = 6;
+    const minSize = MIN_ALPHABET_SIZE;
     const maxSize =
       minSize + Math.round((letters.length - minSize) * alphabetSize);
 

@@ -233,6 +233,8 @@
   "t_High_Scores": "High Scores",
   "t_Highlight_keys": "Highlight keys",
   "t_Interface_options": "Interface options",
+  "t_Key_lock_hint": "Click any key to lock/unlock it. First 6 keys cannot be locked.",
+  "t_Key_lock_legend": "🔒 = Locked key",
   "t_Key_sounds_only:": "Key sounds only",
   "t_Keyboard": "Keyboard",
   "t_Keyboard_hardware_emulates_": "Keyboard hardware emulates layout",
@@ -245,7 +247,9 @@
   "t_Lesson_options": "Lesson options",
   "t_Lesson_preview:": "Lesson preview",
   "t_Lessons": "Lessons",
+  "t_Lock_all_keys": "Lock All Keys (Reset to Initial)",
   "t_Long_words_only": "Long words only",
+  "t_Manual_key_controls": "Manual Key Controls",
   "t_Measure_typing_speed_in:": "Measure typing speed in:",
   "t_Metrics": "Metrics",
   "t_Miscellaneous": "Miscellaneous",
@@ -305,6 +309,7 @@
   "t_Typing_options": "Typing options",
   "t_Uncertain": "Uncertain",
   "t_Unlock_a_next_key_:": "Unlock a next key only when:",
+  "t_Unlock_all_keys": "Unlock All Keys (Auto Progression)",
   "t_Unlock_more_letters:": "Unlock more letters:",
   "t_User": "User",
   "t_Value_per_lesson": "{value}/lesson",
@@ -340,5 +345,10 @@
   "t_ws_Bar_whitespace": "Bar whitespace",
   "t_ws_Bullet_whitespace": "Bullet whitespace",
   "t_ws_No_whitespace": "No whitespace",
-  "weekDayNames": "M|T|W|T|F|S|S"
+  "weekDayNames": "M|T|W|T|F|S|S",
+  "settings.manualKeyControls.title": "Manual Key Controls",
+  "settings.lockAllKeys.label": "Lock All Keys (Reset to Initial)",
+  "settings.unlockAllKeys.label": "Unlock All Keys (Auto Progression)",
+  "settings.manualKeyControls.hint": "Click any key to lock/unlock it. First 6 keys cannot be locked.",
+  "settings.manualKeyControls.legend": "🔒 = Locked key"
 }

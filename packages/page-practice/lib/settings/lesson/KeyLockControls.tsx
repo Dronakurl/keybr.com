@@ -3,10 +3,12 @@ import {
   type LessonKeys,
   lockAllKeys,
   lockKey,
+  MIN_ALPHABET_SIZE,
   parseManualLocks,
   unlockKey,
 } from "@keybr/lesson";
 import { lessonProps } from "@keybr/lesson";
+import { type Lesson } from "@keybr/lesson";
 import { KeySetRow } from "@keybr/lesson-ui";
 import { makeKeyStatsMap, useResults } from "@keybr/result";
 import { useSettings } from "@keybr/settings";
@@ -39,10 +41,10 @@ export function KeyLockControls({
       updateSettings(unlockKey(settings, key.letter.codePoint));
     } else {
       // Lock the key (unless it's one of the first 6 minimum keys)
-      const minSize = 6;
       const minCodePoint =
-        lessonKeys.letters[Math.min(minSize, lessonKeys.letters.length) - 1]
-          ?.codePoint ?? 0;
+        lessonKeys.letters[
+          Math.min(MIN_ALPHABET_SIZE, lessonKeys.letters.length) - 1
+        ]?.codePoint ?? 0;
       if (key.letter.codePoint > minCodePoint) {
         updateSettings(lockKey(settings, key.letter.codePoint));
       }
@@ -65,18 +67,19 @@ export function KeyLockControls({
   const manualLocks = parseManualLocks(
     settings.get(lessonProps.guided.manualLocks),
   );
-  const minSize = 6;
   const minCodePoint =
-    lessonKeys.letters[Math.min(minSize, lessonKeys.letters.length) - 1]
-      ?.codePoint ?? 0;
+    lessonKeys.letters[
+      Math.min(MIN_ALPHABET_SIZE, lessonKeys.letters.length) - 1
+    ]?.codePoint ?? 0;
   const hasLocks = manualLocks.size > 0;
   const allLocked =
-    manualLocks.size === Math.max(0, lessonKeys.letters.length - minSize);
+    manualLocks.size ===
+    Math.max(0, lessonKeys.letters.length - MIN_ALPHABET_SIZE);
 
   return (
     <FieldSet
       legend={formatMessage({
-        id: "t_Manual_key_controls",
+        id: "settings.manualKeyControls.title",
         defaultMessage: "Manual Key Controls",
       })}
     >
@@ -84,7 +87,7 @@ export function KeyLockControls({
         <Field>
           <Button onClick={handleLockAll} disabled={allLocked}>
             {formatMessage({
-              id: "t_Lock_all_keys",
+              id: "settings.lockAllKeys.label",
               defaultMessage: "Lock All Keys (Reset to Initial)",
             })}
           </Button>
@@ -92,7 +95,7 @@ export function KeyLockControls({
         <Field>
           <Button onClick={handleUnlockAll} disabled={!hasLocks}>
             {formatMessage({
-              id: "t_Unlock_all_keys",
+              id: "settings.unlockAllKeys.label",
               defaultMessage: "Unlock All Keys (Auto Progression)",
             })}
           </Button>
@@ -100,7 +103,7 @@ export function KeyLockControls({
       </FieldList>
       <div className={styles.hint}>
         <FormattedMessage
-          id="t_Key_lock_hint"
+          id="settings.manualKeyControls.hint"
           defaultMessage="Click any key to lock/unlock it. First 6 keys cannot be locked."
         />
       </div>
@@ -113,7 +116,7 @@ export function KeyLockControls({
       <div className={styles.hint}>
         <Kbd>
           <FormattedMessage
-            id="t_Key_lock_legend"
+            id="settings.manualKeyControls.legend"
             defaultMessage="🔒 = Locked key"
           />
         </Kbd>
