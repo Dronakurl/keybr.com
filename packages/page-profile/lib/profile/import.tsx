@@ -16,7 +16,7 @@ import {
   deserializeJsonResults,
   detectDuplicates,
   type JsonResult,
-} from "./import.ts";
+} from "./import-data.ts";
 
 type ImportDialogState = {
   importedResults: ResultType[] | null;

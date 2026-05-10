@@ -114,7 +114,7 @@ export async function importData(file: ImportFile): Promise<ImportedData> {
   } else {
     // Import from .stats binary file
     const buffer = await fetch(file.name).then((r) => r.arrayBuffer());
-    const { results } = await parseFile(buffer);
+    const results = Array.from(parseFile(new Uint8Array(buffer)));
     return { results, source: file.name };
   }
 }

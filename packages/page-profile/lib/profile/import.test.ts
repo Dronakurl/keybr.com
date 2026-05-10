@@ -7,7 +7,7 @@ import {
   deserializeJsonResults,
   detectDuplicates,
   type JsonResult,
-} from "./import.ts";
+} from "./import-data.ts";
 
 describe("deserializeJsonResults", () => {
   const createMockJsonResult = (
