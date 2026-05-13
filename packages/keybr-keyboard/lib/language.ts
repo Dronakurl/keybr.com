@@ -14,6 +14,12 @@ export class Language implements EnumItem {
     /* direction= */ "ltr",
     /* alphabet= */ "абвгдежзійклмнопрстуўфхцчшыьэюя",
   );
+  static readonly BR = new Language(
+    /* id= */ "br",
+    /* script= */ "latin",
+    /* direction= */ "ltr",
+    /* alphabet= */ "aàâbchdeêfghijklmnñoôprstuüûùvwyz’", // TODO Add ligature "c’h".
+  );
   static readonly CS = new Language(
     /* id= */ "cs",
     /* script= */ "latin",
@@ -44,6 +50,12 @@ export class Language implements EnumItem {
     /* direction= */ "ltr",
     /* alphabet= */ "abcdefghijklmnopqrstuvwxyz",
   );
+  static readonly EN_GB = new Language(
+    /* id= */ "en-GB",
+    /* script= */ "latin",
+    /* direction= */ "ltr",
+    /* alphabet= */ "abcdefghijklmnopqrstuvwxyz",
+  );
   static readonly ES = new Language(
     /* id= */ "es",
     /* script= */ "latin",
@@ -66,7 +78,7 @@ export class Language implements EnumItem {
     /* id= */ "fi",
     /* script= */ "latin",
     /* direction= */ "ltr",
-    /* alphabet= */ "abcdefghijklmnopqrstuvwxyzäö",
+    /* alphabet= */ "abdefghijklmnoprstuvyäö",
   );
   static readonly FR = new Language(
     /* id= */ "fr",
@@ -182,15 +194,23 @@ export class Language implements EnumItem {
     /* direction= */ "ltr",
     /* alphabet= */ "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя",
   );
+  static readonly VI = new Language(
+    /* id= */ "vi",
+    /* script= */ "latin",
+    /* direction= */ "ltr",
+    /* alphabet= */ "aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệghiíìỉĩịklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ",
+  );
 
   static readonly ALL = new Enum<Language>(
     Language.AR,
     Language.BE,
+    Language.BR,
     Language.CS,
     Language.DA,
     Language.DE,
     Language.EL,
     Language.EN,
+    Language.EN_GB,
     Language.ES,
     Language.ET,
     Language.FA,
@@ -214,6 +234,7 @@ export class Language implements EnumItem {
     Language.TH,
     Language.TR,
     Language.UK,
+    Language.VI,
   );
 
   /** ISO 639-1 language code, https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes */
