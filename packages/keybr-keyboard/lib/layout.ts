@@ -545,6 +545,15 @@ export class Layout implements XEnumItem {
       Geometry.MATRIX,
     ),
   );
+  static readonly RU_STATICA_3X5 = new Layout(
+    /* id= */ "ru-statica-3x5",
+    /* xid= */ 0x71,
+    /* name= */ "Statica 3x5 (Matrix)",
+    /* family= */ "statica",
+    /* language= */ Language.RU,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(Geometry.MATRIX),
+  );
   static readonly BE_BY = new Layout(
     /* id= */ "be-by",
     /* xid= */ 0x74,
@@ -1238,6 +1247,15 @@ export class Layout implements XEnumItem {
     /* emulate= */ false,
     /* geometries= */ new Enum(Geometry.MATRIX),
   );
+  static readonly EN_ENTHIUM_V14 = new Layout(
+    /* id= */ "en-enthium-v14",
+    /* xid= */ 0xbb,
+    /* name= */ "Enthium V14 (Matrix)",
+    /* family= */ "enthium",
+    /* language= */ Language.EN,
+    /* emulate= */ false,
+    /* geometries= */ new Enum(Geometry.MATRIX),
+  );
   static readonly EN_NIGHT_MATRIX = new Layout(
     /* id= */ "en-night-matrix",
     /* xid= */ 0xa9,
@@ -1330,6 +1348,21 @@ export class Layout implements XEnumItem {
     /* emulate= */ false,
     /* geometries= */ new Enum(Geometry.ANSI_101),
   );
+  static readonly BR_CHWERTY_MATHS = new Layout(
+    /* id= */ "br-chwerty-maths",
+    /* xid= */ 0xb1,
+    /* name= */ "{FR}",
+    /* family= */ "chwerty",
+    /* language= */ Language.BR,
+    /* emulate= */ false,
+    /* geometries= */ new Enum(
+      Geometry.ISO_102,
+      Geometry.ISO_102_FULL,
+      Geometry.ANSI_101,
+      Geometry.ANSI_101_FULL,
+      Geometry.MATRIX,
+    ),
+  );
 
   static readonly ALL = new XEnum<Layout>(
     Layout.EN_US,
@@ -1365,11 +1398,13 @@ export class Layout implements XEnumItem {
     Layout.EN_ENTHIUM_V10,
     Layout.EN_ENTHIUM_V11,
     Layout.EN_ENTHIUM_V13,
+    Layout.EN_ENTHIUM_V14,
     Layout.EN_KUNTEM,
     Layout.EN_UK,
     Layout.EN_JP,
     Layout.EN_MTGAP,
     Layout.EL_GR,
+    Layout.BR_CHWERTY_MATHS,
     Layout.CS_CZ,
     Layout.DA_DK,
     Layout.DE_DE,
@@ -1416,6 +1451,7 @@ export class Layout implements XEnumItem {
     Layout.SV_SE,
     Layout.UK_UA,
     Layout.RU_RU,
+    Layout.RU_STATICA_3X5,
     Layout.TR_TR_Q,
     Layout.TR_TR_F,
     Layout.AR_SA,
